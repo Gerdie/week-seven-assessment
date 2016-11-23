@@ -1,0 +1,28 @@
+Recursion
+
+In your own words, what is recursion?
+
+Recursion is a programming strategy in which a function can call itself, and thus
+repeat the same operation on a new, presumably related input. It is especially 
+useful in situations like traversing a graph.
+
+Why is it necessary to have a base case?
+
+If there is no base case, the function could continue to call itself forever (or
+at least until Python shuts it down).
+
+Graphs
+
+What is a graph?
+
+A graph is a structure for organizing data. Trees and linked lists are types of graphs.
+
+How is a graph different from a tree?
+
+A graph can have cycles; trees are acyclic. Nodes/Vertices in a graph can have multiple parents;
+in a tree, each node has <= 1 parent. 
+
+Give an example of something that would be good to model with a graph.
+
+Connections on LinkedIn. Every person is a Node/Vertex, and each Edge is labeled with "Coworker"
+or "Friend" or "Relative" or however the people know each other.
